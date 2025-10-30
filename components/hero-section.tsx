@@ -7,9 +7,11 @@ export function HeroSection() {
     <section className='pt-24 pb-16 space-y-6 sm:space-y-8'>
       <div className='space-y-2 sm:space-y-4'>
         <h1 className='text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight'>
-          Developer <span className='text-muted-foreground'>building</span> cool
+          Building <span className='text-muted-foreground'>tools</span> that
+          save
           <br />
-          <span className='text-muted-foreground'>tools</span> for developers
+          <span className='text-muted-foreground'>time</span> and solve{' '}
+          <span className='text-muted-foreground'>problems</span>
         </h1>
       </div>
       <div className='flex flex-col gap-4 sm:flex-row sm:items-center'>
