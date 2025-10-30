@@ -10,7 +10,7 @@ export function HeroSection() {
           Building <span className='text-muted-foreground'>tools</span> that
           save
           <br />
-          <span className='text-muted-foreground'>time</span> and solve{' '}
+          <span className='text-muted-foreground'>time</span> & solve{' '}
           <span className='text-muted-foreground'>problems</span>
         </h1>
       </div>
