@@ -1,14 +1,7 @@
 import { Badge } from '@/components/ui/badge';
 
 export function HeroSection() {
-  const skills = [
-    'Development',
-    'WordPress',
-    'AI',
-    'UI/UX',
-    'Automation',
-    'Tooling & DevOps',
-  ];
+  const skills = ['Development', 'WordPress', 'AI', 'UI/UX'];
 
   return (
     <section className='pt-24 pb-16 space-y-6 sm:space-y-8'>
