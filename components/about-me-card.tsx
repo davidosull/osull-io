@@ -22,12 +22,12 @@ export function AboutMeCard() {
     <Card className='overflow-hidden'>
       <CardContent className='p-0'>
         <div className='grid grid-cols-1 sm:grid-cols-[280px_1fr] gap-6 px-4 md:p-6 justify-items-start'>
-          <div className='relative w-full max-w-[200px] sm:max-w-[280px] aspect-[3/4] rounded-lg overflow-hidden bg-muted shrink-0'>
+          <div className='relative w-full max-w-[200px] sm:max-w-[280px] aspect-[1/1] sm:aspect-[3/4] rounded-lg overflow-hidden bg-muted shrink-0'>
             <Image
               src='/img/profile.webp'
               alt='About me'
               fill
-              className='object-cover'
+              className='object-cover object-top sm:object-center'
               priority
             />
           </div>
