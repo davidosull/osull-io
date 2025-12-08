@@ -37,8 +37,9 @@ export function AboutMeCard() {
               <p className='text-muted-foreground leading-relaxed'>
                 Hi, I’m David. I’m a freelance WordPress developer based in the
                 UK with 10+ years of hands-on experience. When I’m not building
-                themes and plugins for clients, I’m exploring new and emerging
-                tech to build practical tools that save time and solve problems.
+                themes and plugins for clients (or playing golf), I’m exploring
+                new and emerging tech to build practical tools that save time
+                and solve problems.
               </p>
               <p className='text-muted-foreground leading-relaxed'>
                 Great work starts with easy collaboration, clear communication,
