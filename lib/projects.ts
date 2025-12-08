@@ -21,5 +21,6 @@ export const projects: Project[] = [
       "Adds a new field type 'Open Icons' that allows you to select icons from popular MIT licensed icon libraries such as Lucide, Heroicons, and more.",
     screenshot: '/img/project-acf-icons.webp',
     category: 'WordPress Plugin',
+    link: 'https://acfopenicons.com',
   },
 ];
