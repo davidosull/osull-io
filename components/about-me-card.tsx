@@ -44,7 +44,8 @@ export function AboutMeCard() {
                 Great work starts with easy collaboration, clear communication,
                 and code you can trust. If you’re looking for a reliable
                 developer who speaks your language and ships solid results,
-                we’ll get along just fine.
+                we’ll get along just fine. Drop me a message below and
+                let&apos;s chat.
               </p>
             </div>
 
