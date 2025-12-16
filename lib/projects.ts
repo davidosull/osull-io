@@ -23,4 +23,12 @@ export const projects: Project[] = [
     category: 'WordPress Plugin',
     link: 'https://acfopenicons.com',
   },
+  {
+    title: '301 Flow',
+    description:
+      'Avoid site-breaking mistakes by automating your redirect mapping. Compare sitemaps and generate production-ready redirect rules instantly.',
+    screenshot: '/img/project-301-flow.webp',
+    category: 'Web Application',
+    link: 'https://301-flow.vercel.app',
+  },
 ];
