@@ -14,23 +14,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "David O'Sullivan | Freelance WordPress Developer",
+  title: "David O'Sullivan | Independent Full- Developer",
   description:
-    "I'm David, a freelance WordPress developer based in the UK with over 10 years under my belt. Outside of working with WordPress I like to explore new and emerging tech to build tools that can help me and other developers out.",
+    "I'm David, an independent full stack developer based in the UK with over 10 years under my belt. Outside of working with WordPress I like to explore new and emerging tech to build tools that can help me and other developers out.",
   keywords: [
-    'WordPress developer',
+    'full stack developer',
     'freelance developer',
-    'UK WordPress developer',
-    'WordPress plugins',
+    'independent developer',
+    'UK full stack developer',
     'web developer',
     'frontend developer',
+    'backend developer',
   ],
   authors: [{ name: "David O'Sullivan" }],
   creator: "David O'Sullivan",
   openGraph: {
-    title: "David O'Sullivan | Freelance WordPress Developer",
+    title: "David O'Sullivan | Independent Full-Stack Developer",
     description:
-      'Freelance WordPress developer based in the UK with over 10 years of experience. Building tools and plugins for developers.',
+      'Independent full stack developer based in the UK with over 10 years of experience. Building tools and plugins for developers.',
     url: 'https://osull.io',
     siteName: "David O'Sullivan",
     locale: 'en_GB',
@@ -38,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "David O'Sullivan | Freelance WordPress Developer",
+    title: "David O'Sullivan | Independent Full-Stack Developer",
     description:
-      'Freelance WordPress developer based in the UK with over 10 years of experience.',
+      'Independent full stack developer based in the UK with over 10 years of experience. Building tools and plugins for developers.',
   },
   robots: {
     index: true,

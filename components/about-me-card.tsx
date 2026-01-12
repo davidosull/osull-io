@@ -35,11 +35,12 @@ export function AboutMeCard() {
           <div className='flex flex-col justify-between gap-6'>
             <div className='space-y-4'>
               <p className='text-muted-foreground leading-relaxed'>
-                Hi, I’m David. I’m a freelance WordPress & web developer based
-                in the North West of England with 10+ years of hands-on
-                experience. When I’m not building themes and plugins for clients
-                (or playing golf), I’m exploring new and emerging tech to build
-                practical tools that save time and solve problems.
+                Hi, I&apos;m David. I&apos;m an independent full stack developer
+                based in the North West of England with 10+ years of experience.
+                I build WordPress plugins, web applications, and developer tools
+                that solve specific problems. When I&apos;m not coding (or
+                playing golf), I&apos;m exploring emerging tech and shipping
+                side projects that make developers&apos; lives easier.
               </p>
             </div>
 
