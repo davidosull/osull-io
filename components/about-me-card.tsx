@@ -37,10 +37,10 @@ export function AboutMeCard() {
               <p className='text-muted-foreground leading-relaxed'>
                 Hi, I&apos;m David. I&apos;m an independent full stack developer
                 based in the North West of England with 10+ years of experience.
-                I build WordPress plugins, web applications, and developer tools
-                that solve specific problems. When I&apos;m not coding (or
-                playing golf), I&apos;m exploring emerging tech and shipping
-                side projects that make developers&apos; lives easier.
+                I build WordPress plugins, web applications, and SaaS products
+                that solve real problems. When I&apos;m not coding (or playing
+                golf), I&apos;m usually in a campervan somewhere in Europe with
+                my family.
               </p>
             </div>
 
