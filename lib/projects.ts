@@ -1,58 +1,74 @@
 export interface Project {
-  title: string;
-  description: string;
-  link?: string;
-  screenshot: string;
-  category: string;
+  name: string;
+  icon: string;
+  type: string;
+  status: string;
+  url: string;
+  blurb: string;
 }
 
 export const projects: Project[] = [
   {
-    title: 'Open Icons for ACF',
-    description:
-      'A better icon picker for Advanced Custom Fields. Access 7,000+ icons from Lucide, Tabler, and Heroicons with zero frontend JavaScript, zero CDN calls, and zero performance impact.',
-    link: 'https://acfopenicons.com',
-    screenshot: '/img/screen-oi-acf.webp',
-    category: 'WordPress Plugin',
+    name: 'Quiet Route',
+    icon: '/img/icons/icon-quiet-route.png',
+    type: 'Web and iPhone app',
+    status: 'Live',
+    url: 'https://quietroute.io',
+    blurb:
+      'Campervan trip planning for the UK and Europe. Route, overnight stops, things worth doing and a budget, night by night.',
   },
   {
-    title: 'Open Icons for ACF (Lite)',
-    description:
-      'The free version of Open Icons, available on WordPress.org. Adds a custom icon field to ACF with 324 bundled Heroicons, a colour palette system, and a clean PHP helper function.',
-    link: 'https://wordpress.org/plugins/open-icons-acf/',
-    screenshot: '/img/screen-oi-acf-lite.webp',
-    category: 'WordPress Plugin',
+    name: 'TaskClarity',
+    icon: '/img/icons/icon-task-clarity.png',
+    type: 'Web application',
+    status: 'Live',
+    url: 'https://taskclarity.io',
+    blurb:
+      'A client portal for independent developers. Clients submit tasks through a simple link with no login, and everything sits in one dashboard.',
   },
   {
-    title: 'TaskClarity',
-    description:
-      'A client portal for independent developers. Clients submit tasks through a simple link — no login required. One dashboard for every request, conversation, and approval.',
-    link: 'https://taskclarity.io',
-    screenshot: '/img/screen-task-clarity.webp',
-    category: 'Web Application',
+    name: 'Open Icons for ACF',
+    icon: '/img/icons/icon-open-icons.png',
+    type: 'WordPress plugin',
+    status: 'Live',
+    url: 'https://acfopenicons.com',
+    blurb:
+      'A better icon picker for Advanced Custom Fields. 7,000+ icons from Lucide, Tabler and Heroicons with zero frontend JavaScript and zero CDN calls.',
   },
   {
-    title: 'KatoSync',
-    description:
-      'With a simple setup, flexible auto-sync cadences, and on-demand syncing, KatoSync delivers fresh Kato data into WordPress reliably — giving you control, not complications.',
-    link: 'https://katosync.com',
-    screenshot: '/img/screen-kato-sync.webp',
-    category: 'WordPress Plugin',
+    name: 'Open Icons for ACF (Lite)',
+    icon: '/img/icons/icon-open-icons.png',
+    type: 'WordPress plugin',
+    status: 'Live',
+    url: 'https://wordpress.org/plugins/open-icons-acf/',
+    blurb:
+      'The free version on WordPress.org. Adds a custom icon field to ACF with 324 bundled Heroicons and a colour palette system.',
   },
   {
-    title: 'Easy Invoice',
-    description:
-      'Create and manage professional PDF invoices in seconds from Raycast. Track clients, export records, and get paid faster — all stored locally.',
-    link: 'https://www.raycast.com/davidosull/easy-invoice',
-    screenshot: '/img/screen-raycast-easy-invoice.webp',
-    category: 'Raycast Extension',
+    name: 'KatoSync',
+    icon: '/img/icons/icon-kato-sync.png',
+    type: 'WordPress plugin',
+    status: 'Live',
+    url: 'https://katosync.com',
+    blurb:
+      'Imports Kato property feeds into WordPress as a custom post type, on a schedule or on demand, skipping anything unchanged.',
   },
   {
-    title: '301 Flow',
-    description:
-      'Avoid site-breaking mistakes by automating your redirect mapping. Compare sitemaps and generate production-ready redirect rules instantly.',
-    link: 'https://301-flow.vercel.app',
-    screenshot: '/img/screen-301-flow.webp',
-    category: 'Web Application',
+    name: '301 Flow',
+    icon: '/img/icons/icon-301-flow.png',
+    type: 'Web application',
+    status: 'Live',
+    url: 'https://301-flow.vercel.app',
+    blurb:
+      'Compares old and new sitemaps and generates redirect rules for Apache, Nginx, Cloudflare Workers and IIS, with confidence scores on unmatched URLs.',
+  },
+  {
+    name: 'Easy Invoice',
+    icon: '/img/icons/icon-easy-invoice.png',
+    type: 'Raycast extension',
+    status: 'Live',
+    url: 'https://www.raycast.com/davidosull/easy-invoice',
+    blurb:
+      'PDF invoices in seconds from Raycast, with automatic numbering, VAT and bank details. Clients and records stored locally on your machine.',
   },
 ];

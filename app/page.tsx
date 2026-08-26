@@ -1,24 +1,34 @@
-import { ThemeToggle } from "@/components/theme-toggle";
-import { HeroSection } from "@/components/hero-section";
-import { AboutMeCard } from "@/components/about-me-card";
-import { ProjectsSection } from "@/components/projects-section";
-import { Footer } from "@/components/footer";
+import { SiteHeader } from '@/components/site-header';
+import { Intro } from '@/components/intro';
+import { Services } from '@/components/services';
+import { Stack } from '@/components/stack';
+import { Products } from '@/components/products';
+import { SiteFooter } from '@/components/site-footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 sm:px-6 py-6 sm:py-12 max-w-4xl">
-        <header className="fixed top-4 right-4 sm:top-6 sm:right-6 z-50">
-          <ThemeToggle />
-        </header>
+    <div className='relative min-h-screen'>
+      <div
+        aria-hidden
+        className='pointer-events-none absolute inset-x-0 top-0 h-50 overflow-hidden'
+      >
+        <div className='absolute -top-55 left-1/2 h-105 w-180 -translate-x-1/2 bg-[radial-gradient(ellipse_at_center,var(--accent)_0%,transparent_65%)]' />
+      </div>
 
-        <main className="space-y-16 sm:space-y-24 pb-16 sm:pb-24">
-          <HeroSection />
-          <AboutMeCard />
-          <ProjectsSection />
+      <div className='sticky top-0 z-20 bg-background/85 backdrop-blur-md'>
+        <div className='mx-auto max-w-[680px] px-6'>
+          <SiteHeader />
+        </div>
+      </div>
+
+      <div className='relative mx-auto max-w-[680px] px-6'>
+        <main>
+          <Intro />
+          <Services />
+          <Stack />
+          <Products />
         </main>
-
-        <Footer />
+        <SiteFooter />
       </div>
     </div>
   );
