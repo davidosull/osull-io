@@ -20,7 +20,7 @@ export const projects: Project[] = [
   {
     name: 'TaskClarity',
     icon: '/img/icons/icon-task-clarity.png',
-    type: 'Web application',
+    type: 'Web app',
     status: 'Live',
     url: 'https://taskclarity.io',
     blurb:
@@ -56,7 +56,7 @@ export const projects: Project[] = [
   {
     name: '301 Flow',
     icon: '/img/icons/icon-301-flow.png',
-    type: 'Web application',
+    type: 'Web app',
     status: 'Live',
     url: 'https://301-flow.vercel.app',
     blurb:
